@@ -1,0 +1,32 @@
+*ripgrep.txt* Ripgrep class from vim
+
+Author:  Graeme Nathan
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                    *ripgrep*
+
+This plugin provides a way to run ripgrp from within Vim, both as a command, from normal mode
+over the current word, or via a visual selection.
+
+
+*Erg*
+Erg       Execute rg and dump the output into the current buffer.
+
+*Srg*
+Srg       Execute rg and dump the output into a new split buffer.
+
+*Vrg*
+Vrg       Execute rg and dump the output into a new vertically-split buffer.
+
+*RG*
+RG        Execute rg with a range, and dump the output into a new split buffer.
+
+*<leader>rg*
+<leader>rg    Execute rg with the word under the cursor, and dump the output into a
+              new split buffer. In visual mode, executes rg with the currently selected text.
+
+*<leader>vrg*
+<leader>vrg   Execute rg with the word under the cursor, and dump the output into a
+              new vertically-split buffer. In visual mode, executes rg with the
+              currently selected text.
+
