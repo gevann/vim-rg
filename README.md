@@ -10,4 +10,4 @@ I recommend using [Vundle](https://github.com/VundleVim/Vundle.vim).
 
 ## Dependencies
 
-Depends on `rg`.
+Depends on [rg](https://github.com/strindberg/rg)
