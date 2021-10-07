@@ -6,8 +6,8 @@ function! RgCommand(split_cmd, ...)
 endfunction
 
 command! -range RG :execute "Srg '" . @* . "'"
-command! -nargs=* Srg :call RgCommand(":new", <f-args>)
-command! -nargs=* Vrg :call RgCommand(":vnew", <f-args>)
+command! -nargs=* Srg :call RgCommand(":bo new", <f-args>)
+command! -nargs=* Vrg :call RgCommand(":bo vnew", <f-args>)
 command! -nargs=* Erg :call RgCommand(":enew",  <f-args>)
 
 nnoremap <leader>rg :execute "Srg " . expand("<cword>")<cr>
